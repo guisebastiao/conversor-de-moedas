@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D3CCE3;
+    background: linear-gradient(to right, #d4d3d6, #D3CCE3);
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+select {
+    width: 90%;
+    height: 35px;
+    border-radius: 35px;
+    border: 2px solid #222;
+    color: #222;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+option {
+    position: relative;
+    text-align: center;
+    color: #333;
+    border: 2px solid #222;
+    color: #333;
+    font-size: 14px;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    border-radius: 35px;
+    border: 2px solid #222;
+    color: #333;
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+    background: transparent;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.inputs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span {
+    text-transform: capitalize;
+    color: #222;
+}
